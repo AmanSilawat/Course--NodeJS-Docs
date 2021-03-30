@@ -1,0 +1,1 @@
+cmd_Release/object-wrap-demo-native.node := ln -f "Release/obj.target/object-wrap-demo-native.node" "Release/object-wrap-demo-native.node" 2>/dev/null || (rm -rf "Release/object-wrap-demo-native.node" && cp -af "Release/obj.target/object-wrap-demo-native.node" "Release/object-wrap-demo-native.node")
