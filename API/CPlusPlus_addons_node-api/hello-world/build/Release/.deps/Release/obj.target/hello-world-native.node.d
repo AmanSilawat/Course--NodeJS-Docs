@@ -1,0 +1,1 @@
+cmd_Release/obj.target/hello-world-native.node := g++ -o Release/obj.target/hello-world-native.node -shared -pthread -rdynamic -m64  -Wl,-soname=hello-world-native.node -Wl,--start-group Release/obj.target/hello-world-native/src/hello_world.o Release/obj.target/node_modules/node-addon-api/src/nothing.a -Wl,--end-group 
